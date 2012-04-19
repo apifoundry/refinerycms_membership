@@ -5,7 +5,7 @@
 #      warn "'#{current_refinery_user.username}' tried to access '#{params[:controller]}' but was rejected."
 #      #
 #      redirect_to '/' unless admin
-    end
+#    end
     error_404 unless admin
   end
 end
